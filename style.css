@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(pexels-eberhardgross-1421903.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.container {
+    border: 2px solid rgb(246, 239, 239);
+    width: 420px;
+    padding: 30px 40px;
+    border-radius: 15px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    text-align: center;
+}
+
+.container .title {
+    font-size: 40px;
+    color: white;
+}
+
+
+.input-wrapper {
+    width: 100%;
+    margin: 30px 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.input-wrapper input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid;
+    outline: none;
+    border-radius: 15px;
+    font-size: 20px;
+    background: transparent;
+    color: white;
+}
+
+.input-wrapper input::placeholder {
+    color: white;
+}
+
+
+.input-wrapper i {
+    font-size: 20px;
+    position: absolute;
+    right: 5px;
+    color: white;
+}
+
+.login-button {
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    transition: .2s ease all;
+    border: 1px solid white;
+}
+
+.login-button:hover {
+    background-color: gray;
+}
+
+
+p {
+    padding: 60px 0;
+    color: white;
+}
+
+p a {
+    text-decoration: none;
+    color: white;
+}
